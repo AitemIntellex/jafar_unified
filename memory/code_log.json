@@ -1,0 +1,92 @@
+[
+  {
+    "timestamp": "2025-11-08T04:48:16.829408",
+    "command": "atrade btc",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-08T04:51:48.427553",
+    "command": "atrade btc",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-08T10:43:33.655735",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-08T15:30:54.388111",
+    "command": "atrade btc",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-08T15:32:56.138735",
+    "command": "atrade btc",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-08T17:00:36.465779",
+    "command": "atrade btc",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-08T17:04:13.586799",
+    "command": "analyze bitcoin",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-08T17:28:26.081142",
+    "command": "analyze bitcoin",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-08T17:31:11.000795",
+    "command": "atrade btc",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-08T18:55:41.579380",
+    "command": "atrade btc",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-08T18:58:02.672385",
+    "command": "analyze bitcoin",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-08T19:33:40.328681",
+    "command": "atrade btc",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-09T00:10:57.781663",
+    "command": "atrade btc",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-10T17:59:44.371019",
+    "command": "atrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-10T18:09:20.839795",
+    "command": "atrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-11T11:01:28.691233",
+    "command": "atrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-11T17:52:10.449320",
+    "command": "atrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-11T18:54:40.618079",
+    "command": "сейчас у нас задача выпустить свой проект хотя бы на github, для этого нужно подготовить лицензию, пустой .env для ключей и т.д. что скажешь?",
+    "result": null
+  }
+]

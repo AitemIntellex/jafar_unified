@@ -1,0 +1,44 @@
+Table Broker {
+  id int [pk, increment]
+  name varchar
+  mc_number varchar
+  dot_number varchar
+  email varchar
+  phone varchar
+  created_by int // [ref: > User.id]
+  created_at datetime
+  updated_at datetime
+}
+
+Table Contact {
+  id int [pk, increment]
+  broker_id int [ref: > Broker.id]
+  name varchar
+  email varchar
+  phone varchar
+}
+
+Table Load {
+  id int [pk, increment]
+  carrier_id int
+  order_id varchar [unique]
+  broker_id int [ref: > Broker.id]
+  pickup_time datetime
+  pickup_address varchar
+  pickup_city varchar
+  pickup_state varchar
+  pickup_zip_code varchar
+  delivery_time datetime
+  delivery_address varchar
+  delivery_city varchar
+  delivery_state varchar
+  delivery_zip_code varchar
+  commodity varchar
+  weight float
+  rate float
+  assigned_driver_id int [ref: > Driver.id]
+  assigned_truck_id int [ref: > Truck.id]
+  status varchar
+  created_at datetime
+  updated_at datetime
+}

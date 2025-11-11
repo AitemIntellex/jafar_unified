@@ -1,0 +1,46 @@
+Table Driver {
+  id int [pk, increment]
+  first_name varchar
+  last_name varchar
+  email varchar
+  phone varchar
+  license_number varchar
+  license_state varchar
+  license_expiry_date date
+  medical_card_expiry_date date
+  created_at datetime
+  updated_at datetime
+}
+
+Table Truck {
+  id int [pk, increment]
+  truck_number varchar
+  license_plate varchar
+  license_state varchar
+  inspection_due_date date
+  registration_expiry_date date
+  created_at datetime
+  updated_at datetime
+}
+
+Table Inspection {
+  id int [pk, increment]
+  truck_id int [ref: > Truck.id]
+  inspection_date date
+  result varchar
+  notes text
+  created_at datetime
+  updated_at datetime
+}
+
+Table Ticket {
+  id int [pk, increment]
+  driver_id int [ref: > Driver.id]
+  date date
+  location varchar
+  violation varchar
+  fine_amount float
+  paid boolean
+  created_at datetime
+  updated_at datetime
+}

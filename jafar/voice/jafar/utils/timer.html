@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Таймер</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  #timer {
+    font-size: 10rem;
+    font-weight: bold;
+    color: #333;
+  }
+</style>
+</head>
+<body>
+
+<div id="timer"></div>
+
+<script>
+  function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+  }
+
+  const delay = getQueryParam('delay') || 5;
+  let timeLeft = parseInt(delay, 10);
+  const timerElement = document.getElementById('timer');
+
+  function updateTimer() {
+    timerElement.textContent = timeLeft;
+    if (timeLeft === 0) {
+      // Можно добавить сообщение о том, что скриншот делается
+      timerElement.textContent = "📸";
+      setTimeout(() => {
+        window.close();
+      }, 1000);
+    } else {
+      timeLeft--;
+      setTimeout(updateTimer, 1000);
+    }
+  }
+
+  updateTimer();
+</script>
+
+</body>
+</html>

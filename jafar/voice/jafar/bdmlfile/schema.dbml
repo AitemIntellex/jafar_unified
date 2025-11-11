@@ -1,0 +1,170 @@
+// -------- Dispatch Models --------
+
+Table broker {
+  id int [pk]
+  name varchar
+  mc_number varchar
+  dot_number varchar
+  email varchar
+  phone varchar
+  created_by int
+}
+
+Table contact {
+  id int [pk]
+  broker_id int [ref: > broker.id]
+  name varchar
+  email varchar
+  phone varchar
+}
+
+Table load {
+  id int [pk]
+  carrier_id int
+  order_id varchar
+  broker_id int [ref: > broker.id]
+  pickup_time datetime
+  pickup_address varchar
+  pickup_city varchar
+  pickup_state varchar
+  pickup_zip_code varchar
+  delivery_time datetime
+  delivery_address varchar
+  delivery_city varchar
+  delivery_state varchar
+  delivery_zip_code varchar
+  commodity varchar
+  weight decimal
+  rate decimal
+  special_instructions text
+  notes text
+  created_by int
+  assigned_truck int
+  assigned_driver int
+  status varchar
+}
+
+Table load_document {
+  id int [pk]
+  load_id int [ref: > load.id]
+  document_type varchar
+  file text
+  is_verified boolean
+}
+
+Table driver_status {
+  id int [pk]
+  load_id int [ref: > load.id]
+  driver_id int
+  carrier_id int
+  broker_id int
+  status varchar
+}
+
+// -------- Safety Models --------
+
+Table driver {
+  id int [pk]
+  name varchar
+  carrier_id int
+  date_of_birth date
+  ssn varchar
+  phone_number varchar
+  email varchar
+  cdl_number varchar
+  cdl_issue_state varchar
+  first_cdl_issue_date date
+  cdl_issue_date date
+  cdl_expiration date
+  medical_card_expiration date
+  payment_basis_type varchar
+  payment_basis_value decimal
+  insurance_fee decimal
+  IFTA_fee decimal
+  status varchar
+  employment_type varchar
+  hiring_date date
+  assigned_truck varchar
+  termination_date date
+  emergency_contact varchar
+  emergency_phone varchar
+  relationship varchar
+  driver_status varchar
+  eta datetime
+  location varchar
+  notes text
+}
+
+Table safety_record {
+  id int [pk]
+  user_id int
+  cdl_number varchar
+  cdl_issue_state varchar
+  cdl_issue_date date
+  cdl_expiration date
+  med_card_expiration date
+  position varchar
+  hiring_date date
+  status varchar
+  terminated_date date
+}
+
+Table inspection {
+  id int [pk]
+  safety_record_id int [ref: > safety_record.id]
+  inspection_date date
+  report_number varchar
+  unit_number varchar
+  level varchar
+}
+
+Table ticket {
+  id int [pk]
+  safety_record_id int [ref: > safety_record.id]
+  date date
+  citation_number varchar
+  description text
+  hearing_date date
+  court_address varchar
+  attorney_name varchar
+  attorney_phone varchar
+  attorney_email varchar
+  status varchar
+  notes text
+  attachments text
+}
+
+Table accident {
+  id int [pk]
+  safety_record_id int [ref: > safety_record.id]
+  date date
+  crash_report_number varchar
+  location varchar
+  fatalities boolean
+  number_of_fatalities int
+  injuries boolean
+  towaways boolean
+  towing_company varchar
+  towing_company_address varchar
+  towing_company_phone varchar
+  contact_name varchar
+  notes text
+  attachments text
+}
+
+Table claim {
+  id int [pk]
+  safety_record_id int [ref: > safety_record.id]
+  claim_number varchar
+  policy_type varchar
+  date_of_loss date
+  location varchar
+  adjuster_name varchar
+  adjuster_phone varchar
+  adjuster_email varchar
+  appraiser_name varchar
+  appraiser_phone varchar
+  appraiser_email varchar
+  appraiser_address varchar
+  notes text
+}

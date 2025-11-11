@@ -1,0 +1,18 @@
+{
+    "tms_backend": {
+      "path": "~/Projects/tms_backend",
+      "branch": "dev"
+    },
+    "tms_frontend": {
+      "path": "~/Projects/tms_frontend",
+      "branch": "dev"
+    },
+    "TradeSpace": {
+      "path": "~/Projects/TradeSpace-MVPPDO",
+      "branch": "main"
+    },
+    "jafar_v2": {
+      "path": "~/Projects/jafar_v2",
+      "branch": null
+    }
+  }

@@ -1,0 +1,118 @@
+Table brokers {
+  id integer [pk, increment]
+  company_name varchar(255)
+  mc varchar(20)
+  address varchar(255)
+  phone varchar(30)
+  billing_email varchar(100)
+  fax varchar(30)
+  // Можно добавить: created_at, updated_at
+}
+
+Table drivers {
+  id integer [pk, increment]
+  name varchar(100)
+  status varchar(20)
+  phone varchar(30)
+  location varchar(255)
+  notes text
+  broker_id integer [ref: > brokers.id]
+}
+
+Table dispatchers {
+  id integer [pk, increment]
+  name varchar(100)
+  email varchar(100)
+  phone varchar(30)
+}
+
+Table loads {
+  id integer [pk, increment]
+  broker_id integer [ref: > brokers.id]
+  carrier_company varchar(255)
+  dispatcher_id integer [ref: > dispatchers.id]
+  pickup_address varchar(255)
+  pickup_time datetime
+  delivery_address varchar(255)
+  delivery_time datetime
+  commodity varchar(100)
+  weight decimal(10,2)
+  rate decimal(10,2)
+  status varchar(20)
+  notes text
+}
+
+Table driver_status {
+  id integer [pk, increment]
+  driver_id integer [ref: > drivers.id]
+  status varchar(20)
+  eta datetime
+  location varchar(255)
+  notes text
+  load_id integer [ref: > loads.id]
+  broker_id integer [ref: > brokers.id]
+  dispatcher_id integer [ref: > dispatchers.id]
+}
+
+Table weekly_gross {
+  id integer [pk, increment]
+  driver_id integer [ref: > drivers.id]
+  week_start date
+  gross_amount decimal(12,2)
+  revenue decimal(12,2)
+}
+
+// ==================== Safety ====================
+
+Table equipment {
+  id integer [pk, increment]
+  unit_number varchar(50)
+  year integer
+  make varchar(50)
+  vin_number varchar(50)
+  plate_number varchar(30)
+  state varchar(2)
+  status varchar(20)
+  type varchar(30)
+  company_id integer
+
+Table inspections {
+  id integer [pk, increment]
+  driver_id integer [ref: > drivers.id]
+  unit_id integer [ref: > equipment.id]
+  inspection_date date
+  report_number varchar(50)
+  level varchar(20)
+  notes text
+}
+
+Table accidents {
+  id integer [pk, increment]
+  driver_id integer [ref: > drivers.id]
+  date date
+  location varchar(255)
+  fatalities integer
+  injuries integer
+  company_id integer
+  notes text
+}
+
+Table tickets {
+  id integer [pk, increment]
+  driver_id integer [ref: > drivers.id]
+  status varchar(20)
+  date date
+  citation_number varchar(50)
+  company_id integer
+  notes text
+}
+
+Table claims {
+  id integer [pk, increment]
+  driver_id integer [ref: > drivers.id]
+  claim_number varchar(50)
+  policy_type varchar(50)
+  date_of_loss date
+  company_id integer
+  notes text
+}

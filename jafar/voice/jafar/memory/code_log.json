@@ -1,0 +1,4207 @@
+[
+  {
+    "timestamp": "2025-06-19T02:35:40.383095",
+    "command": "init_all_projects",
+    "result": "ok"
+  },
+  {
+    "timestamp": "2025-06-19T02:35:40.467389",
+    "command": "start_tmux_services",
+    "result": "ok"
+  },
+  {
+    "timestamp": "2025-06-19T02:39:22.484398",
+    "command": "init_all_projects",
+    "result": "ok"
+  },
+  {
+    "timestamp": "2025-06-19T02:39:22.546231",
+    "command": "start_tmux_services",
+    "result": "ok"
+  },
+  {
+    "timestamp": "2025-06-19T02:39:38.411195",
+    "command": "init_all_projects",
+    "result": "ok"
+  },
+  {
+    "timestamp": "2025-06-19T02:39:38.477256",
+    "command": "start_tmux_services",
+    "result": "ok"
+  },
+  {
+    "timestamp": "2025-06-19T02:42:12.832177",
+    "command": "init_all_projects",
+    "result": "ok"
+  },
+  {
+    "timestamp": "2025-06-19T02:42:12.840792",
+    "command": "init_all_projects",
+    "result": "ok"
+  },
+  {
+    "timestamp": "2025-06-19T02:42:12.943352",
+    "command": "start_tmux_services",
+    "result": "ok"
+  },
+  {
+    "timestamp": "2025-06-19T02:42:12.963149",
+    "command": "start_tmux_services",
+    "result": "ok"
+  },
+  {
+    "timestamp": "2025-06-19T03:02:46.041972",
+    "command": "init_all_projects",
+    "result": "ok"
+  },
+  {
+    "timestamp": "2025-06-20T23:05:56.430333",
+    "command": "chat_input",
+    "result": "найди файл cli/main.py и предложи улучшение"
+  },
+  {
+    "timestamp": "2025-06-20T23:10:44.238019",
+    "command": "chat_input",
+    "result": "найди файл cli/main.py и предложи улучшение"
+  },
+  {
+    "timestamp": "2025-06-20T23:12:07.224454",
+    "command": "chat_input",
+    "result": "проверка"
+  },
+  {
+    "timestamp": "2025-06-20T23:12:37.825002",
+    "command": "chat_input",
+    "result": "проверка"
+  },
+  {
+    "timestamp": "2025-06-20T23:12:44.443922",
+    "command": "chat_input",
+    "result": "проверка"
+  },
+  {
+    "timestamp": "2025-06-20T23:12:44.445810",
+    "command": "chat проверка",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-20T23:14:04.407592",
+    "command": "code проыерь файл cli/main.py и предложи улучшение",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-20T23:15:01.944231",
+    "command": "chat_input",
+    "result": "проверка"
+  },
+  {
+    "timestamp": "2025-06-20T23:15:01.946849",
+    "command": "chat проверка",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-20T23:15:24.113911",
+    "command": "code помоги",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-20T23:15:46.309602",
+    "command": "help",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-20T23:19:06.758997",
+    "command": "code help",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-20T23:19:58.588887",
+    "command": "code проверь файл /home/jafar/Projects/jafar_v2/jafar/cli/ai_handlers.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-20T23:28:00.907956",
+    "command": "chat_input",
+    "result": "ты здесь?"
+  },
+  {
+    "timestamp": "2025-06-20T23:28:00.910296",
+    "command": "chat ты здесь?",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-20T23:29:36.617306",
+    "command": "codу",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-20T23:29:57.189432",
+    "command": "code",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-20T23:30:05.163866",
+    "command": "code print(123) ",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T00:04:38.742266",
+    "command": "chat_input",
+    "result": "поговорим"
+  },
+  {
+    "timestamp": "2025-06-21T00:04:38.754961",
+    "command": "chat поговорим",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T00:05:20.265331",
+    "command": "chaЕ",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T00:06:29.978517",
+    "command": "chat_input",
+    "result": "ПРОВЕРЬ"
+  },
+  {
+    "timestamp": "2025-06-21T00:06:39.808593",
+    "command": "chat_response",
+    "result": "Недостаточно данных, уточните, что требуется проверить: файл, код, структуру, конфиг или иное."
+  },
+  {
+    "timestamp": "2025-06-21T00:06:39.809512",
+    "command": "chat ПРОВЕРЬ",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T00:07:24.297534",
+    "command": "chat_input",
+    "result": "проверь файл cli/main.py"
+  },
+  {
+    "timestamp": "2025-06-21T00:07:34.892714",
+    "command": "chat_response",
+    "result": "Файл cli/main.py не предоставлен, его содержимое отсутствует. Для анализа необходим текстовый код или загрузка файла."
+  },
+  {
+    "timestamp": "2025-06-21T00:07:34.893877",
+    "command": "chat проверь файл cli/main.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T00:08:19.094562",
+    "command": "chat_input",
+    "result": "проверь файл /home/jafar/Projects/jafar_v2/jafar/cli/main.py"
+  },
+  {
+    "timestamp": "2025-06-21T00:08:30.477685",
+    "command": "chat_response",
+    "result": "Файл /home/jafar/Projects/jafar_v2/jafar/cli/main.py не предоставлен и не загружен, поэтому анализ невозможен."
+  },
+  {
+    "timestamp": "2025-06-21T00:08:30.478702",
+    "command": "chat проверь файл /home/jafar/Projects/jafar_v2/jafar/cli/main.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T00:13:23.363278",
+    "command": "chat_input",
+    "result": "проверь файл cli/main.py"
+  },
+  {
+    "timestamp": "2025-06-21T00:13:34.156470",
+    "command": "chat_response",
+    "result": "Файл cli/main.py не предоставлен для анализа. Нет содержимого или загрузки, поэтому проверить на ошибки невозможно."
+  },
+  {
+    "timestamp": "2025-06-21T00:13:34.157759",
+    "command": "chat проверь файл cli/main.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T00:13:58.263165",
+    "command": "chat_input",
+    "result": "пообщаемся?"
+  },
+  {
+    "timestamp": "2025-06-21T00:14:08.227668",
+    "command": "chat_response",
+    "result": "Готов к диалогу! Можешь задать вопрос, уточнить задачу или попробовать команды."
+  },
+  {
+    "timestamp": "2025-06-21T00:14:08.228753",
+    "command": "chat пообщаемся?",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T00:16:46.677759",
+    "command": "chat_input",
+    "result": "что ты умеешь?"
+  },
+  {
+    "timestamp": "2025-06-21T00:16:58.884697",
+    "command": "chat_response",
+    "result": "Я выполняю задачи по разработке и сопровождению Python/Django/DevOps-проектов, генерирую и объясняю код, помогаю с тестированием, CI/CD, git, анализирую логи и инфраструктуру, пишу автотесты и скрипты, формирую документацию, проверяю конфиги и сопутствую по CLI."
+  },
+  {
+    "timestamp": "2025-06-21T00:16:58.885808",
+    "command": "chat что ты умеешь?",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T00:17:37.152135",
+    "command": "chat_input",
+    "result": "спасибо, а можем поработать над файлом?"
+  },
+  {
+    "timestamp": "2025-06-21T00:17:45.209331",
+    "command": "chat_response",
+    "result": "Готов помочь! Вставь содержимое файла или опиши задачу (проверить, оптимизировать, написать тест, доработать функционал и т.д.)."
+  },
+  {
+    "timestamp": "2025-06-21T00:17:45.210747",
+    "command": "chat спасибо, а можем поработать над файлом?",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T00:22:13.089333",
+    "command": "chat_input",
+    "result": "пообщаемся?"
+  },
+  {
+    "timestamp": "2025-06-21T00:22:22.126654",
+    "command": "chat_response",
+    "result": "Готов к диалогу. Можешь задавать вопросы по проекту, коду, инфраструктуре или рабочим процессам."
+  },
+  {
+    "timestamp": "2025-06-21T00:22:22.127588",
+    "command": "chat пообщаемся?",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T00:28:14.289899",
+    "command": "chatmode проверка",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T00:29:00.117268",
+    "command": "code проверь файл /home/jafar/Projects/jafar_v2/jafar/cli/utils.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T08:51:39.844768",
+    "command": "code",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T08:51:50.111755",
+    "command": "cod log",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T08:52:25.793991",
+    "command": "code log",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T08:56:07.841081",
+    "command": "code /home/jafar/Projects/jafar_v2/jafar/screenshots/Screenshots/2025-06/msedge_rv3WATt7QL.png ",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T09:04:21.922608",
+    "command": "game-mode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T09:28:06.913961",
+    "command": "chatmode проверка",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T10:08:53.776155",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T10:17:46.963730",
+    "command": "gamemode поиск ai_watcher.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T10:22:23.026644",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T10:27:34.384909",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T10:27:39.394884",
+    "command": "",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T10:35:18.627873",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T11:40:26.617989",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T11:57:52.881556",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T12:07:44.844825",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T12:34:09.740673",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T15:04:18.751288",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T15:06:46.917940",
+    "command": "gamemode evolution",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T15:07:59.897406",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T15:10:25.873264",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T15:17:41.276239",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T15:25:59.148714",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T16:01:00.250251",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T16:01:18.168414",
+    "command": "evolution",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T16:28:18.390327",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T16:48:11.083135",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T17:06:23.212039",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T17:28:56.811890",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T17:54:44.354761",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T17:57:48.350181",
+    "command": "code test py check_internet.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T18:14:31.109583",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T19:44:30.125805",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-21T20:03:15.336585",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T00:19:09.785409",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T21:17:07.128690",
+    "command": "проверка",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T21:22:29.727703",
+    "command": "make run",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T21:22:38.195724",
+    "command": "jafar",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T21:31:53.362452",
+    "command": "github",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T21:32:10.528315",
+    "command": "github ststus",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T21:34:40.460965",
+    "command": "github",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T21:35:48.928939",
+    "command": "code проверь /home/jafar/Projects/jafar_v2/jafar/cli/github_handlers.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T21:40:04.914219",
+    "command": "github",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T21:42:04.768198",
+    "command": "github",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T22:32:46.825577",
+    "command": "github",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T23:00:39.462039",
+    "command": "github status",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T23:00:57.626946",
+    "command": "jafar > github branch",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T23:01:15.064641",
+    "command": "github branch",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T23:21:16.172626",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T23:39:05.127237",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T23:43:49.888683",
+    "command": "привет",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T23:44:07.807962",
+    "command": "github",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T23:44:16.689331",
+    "command": "code",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T23:44:43.009949",
+    "command": "help",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T23:46:42.131901",
+    "command": "help",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T23:46:53.463462",
+    "command": "help",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T23:47:13.275812",
+    "command": "clear",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T23:47:23.681759",
+    "command": "привет",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-22T23:54:21.462374",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T00:22:18.939333",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T00:35:14.260913",
+    "command": "projects",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T00:35:29.336116",
+    "command": "project analyze tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T00:57:17.128509",
+    "command": "project analyze tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T00:57:23.135592",
+    "command": "project analyze tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T00:59:32.250014",
+    "command": "project analyze tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T00:59:36.536131",
+    "command": "project analyze tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T01:01:04.694692",
+    "command": "project analyze tms_backend\n/home/jafar/Projects/tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T01:38:24.598895",
+    "command": "project analyze tms_backend\n/home/jafar/Projects/tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T01:39:42.434326",
+    "command": "project analyze tms_backend\n/home/jafar/Projects/tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T01:41:18.711571",
+    "command": "project analyze tms_backend\n/home/jafar/Projects/tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T02:27:53.039026",
+    "command": "project analyze tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T02:28:03.548972",
+    "command": "project analyze tms_backend\n/home/jafar/Projects/tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T02:28:42.848425",
+    "command": "project analyze tms_backend\n/home/jafar/Projects/tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T02:29:12.963780",
+    "command": "project analyze tms_backend\n/home/jafar/Projects/tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T02:29:31.328852",
+    "command": "project analyze tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T02:38:17.956580",
+    "command": "project analyze tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T02:38:35.841206",
+    "command": "project analyze tms_backend\n/home/jafar/Projects/tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T02:42:40.406123",
+    "command": "projects",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T02:42:47.722114",
+    "command": "project",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T02:43:06.171839",
+    "command": "project list",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T02:43:35.673503",
+    "command": "что мы можем с этим делать?",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T02:43:50.456771",
+    "command": "project analyze tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T02:47:51.492695",
+    "command": "project analyze tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T02:48:01.983487",
+    "command": "project analyze tms_backend\n/home/jafar/Projects/tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T02:49:21.883031",
+    "command": "project",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T02:49:32.757977",
+    "command": "project list",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T03:01:22.182375",
+    "command": "project status",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T03:02:38.431661",
+    "command": "project readme tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T03:04:50.140359",
+    "command": "project analyze tms_backend\n/home/jafar/Projects/tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T03:05:57.280808",
+    "command": "project status",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T03:11:16.164627",
+    "command": "project readme tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T03:11:30.615638",
+    "command": "project analyze tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T03:14:29.699505",
+    "command": "project analyze tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T03:17:31.528954",
+    "command": "project readme tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T03:26:21.419095",
+    "command": "project analyze tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T03:44:16.531120",
+    "command": "project analyze tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T03:49:04.720054",
+    "command": "project analyze tms_backend --force",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T03:50:55.921878",
+    "command": "project readme tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T03:53:27.345663",
+    "command": "project readme tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T04:06:12.620798",
+    "command": "project readme tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T04:09:55.132795",
+    "command": "project status",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T04:11:47.277847",
+    "command": "project status",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T04:12:02.526507",
+    "command": "project readme tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T04:14:52.764493",
+    "command": "project readme tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T04:25:22.231203",
+    "command": "project status",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T04:25:46.923405",
+    "command": "project analyze tms_backendkend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T04:26:54.470853",
+    "command": "project analyze tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T04:44:26.327637",
+    "command": "project analyze tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T04:44:57.476678",
+    "command": "project analyze tms_backend --force",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T04:47:33.845831",
+    "command": "clear",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T04:48:40.513762",
+    "command": "проверка",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T04:50:11.298737",
+    "command": "--reset",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T04:52:57.285570",
+    "command": "project analyze tms_backend --reset",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T04:56:40.322820",
+    "command": "project analyze tms_backend --reset",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T04:59:10.132210",
+    "command": "project",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T04:59:27.659434",
+    "command": "project analyze tms_backend --reset",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:11:15.869471",
+    "command": "project analyze tms_backend --reset",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:13:34.571771",
+    "command": "проверка",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:16:29.993018",
+    "command": "project analyze tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:17:47.464893",
+    "command": "project analyze tms_frontend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:19:03.948089",
+    "command": "project analyze tms_frontend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:19:12.792302",
+    "command": "project analyze tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:22:35.637460",
+    "command": "project analyze tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:30:16.562506",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:30:30.149472",
+    "command": "evo",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:31:25.845620",
+    "command": "ai",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:32:21.657046",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:33:03.509068",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:34:21.578632",
+    "command": "chatmode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:34:29.012254",
+    "command": "github",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:34:39.242358",
+    "command": "code",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:34:54.966348",
+    "command": "file",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:35:06.506247",
+    "command": "project",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:35:33.615404",
+    "command": "help",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:35:48.562243",
+    "command": "--help",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:42:39.762614",
+    "command": "project",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:43:44.462865",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:49:01.952024",
+    "command": "gamemode",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:49:23.574332",
+    "command": "project",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:52:19.949529",
+    "command": "code",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T05:55:23.033806",
+    "command": "проверка",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T07:13:17.587817",
+    "command": "привет. Поработаем над проектом tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T07:15:20.560975",
+    "command": "project",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T07:15:31.684895",
+    "command": "project status",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T07:16:02.460083",
+    "command": "project status",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T07:28:43.022331",
+    "command": "у нас есть хэндлеры для github, ты изучил?",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T07:48:25.495865",
+    "command": "pip install pre-commit",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T15:15:20.992427",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T15:21:45.648264",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T15:26:15.208992",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T15:40:57.840343",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T15:42:20.021002",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T16:00:28.486665",
+    "command": "project tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T16:17:02.395060",
+    "command": "project tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T19:03:37.233826",
+    "command": "projects",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T19:03:49.041692",
+    "command": "project",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T19:04:08.956969",
+    "command": "project list",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T19:05:44.540020",
+    "command": "code pytest /home/jafar/Projects/tms_backend/apps/dispatch/models.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T19:07:22.953753",
+    "command": "code pytest /home/jafar/Projects/jafar_v2/jafar/cli/game_handlers.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T19:08:37.825746",
+    "command": "code /home/jafar/Projects/jafar_v2/jafar/cli/game_handlers.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T19:09:13.786974",
+    "command": "project tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T19:21:26.933752",
+    "command": "сейчас у меня не работает функция codeб не полностью",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T19:21:51.043481",
+    "command": "code /home/jafar/Projects/jafar_v2/jafar/renderers/render_rich.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T19:23:55.935382",
+    "command": "project statuus rms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T19:24:16.539712",
+    "command": "project status tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T19:25:02.597939",
+    "command": "project run tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T19:48:12.850111",
+    "command": "чем отличаются обычные vpn от deticated ip vpn?",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T19:50:49.079129",
+    "command": "help",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T20:14:56.013295",
+    "command": "найди файл который делает pytest внутри jafar_v2",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T20:17:15.820954",
+    "command": "project tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T20:29:04.735294",
+    "command": "#40 Create database models from the database schemas",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T20:30:28.317702",
+    "command": "help",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T20:31:02.750009",
+    "command": "project tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T20:48:32.487337",
+    "command": "code edit jafar/cli/code_handlers.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T20:49:55.593843",
+    "command": "code edit /home/jafar/Projects/tms_backend/apps/dispatch/models.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T20:59:09.523805",
+    "command": "code edit /home/jafar/Projects/jafar_v2/jafar/assistant_core/image_handler.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T20:59:47.888254",
+    "command": "code edit /home/jafar/Projects/jafar_v2/jafar/assistant_core/image_handler.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T21:08:20.569534",
+    "command": "code edit /home/jafar/Projects/jafar_v2/jafar/assistant_core/image_handler.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T21:11:53.687662",
+    "command": "│ ❌ Ошибка: name 'Confirm' is not defined                                                 │\n╰──────────────────────────────────────────────────────────────────────────────────────────╯\nTraceback (most recent call last):\n  File \"/home/jafar/Projects/jafar_v2/jafar/cli/command_router.py\", line 74, in handle_command\n    command_handlers[action](args)\n  File \"/home/jafar/Projects/jafar_v2/jafar/cli/code_handlers.py\", line 36, in handle_code_command\n    return edit_code(args)\n           ^^^^^^^^^^^^^^^\n  File \"/home/jafar/Projects/jafar_v2/jafar/cli/code_handlers.py\", line 164, in edit_code\n    if Confirm.ask(\"💾 Сохранить изменения?\"):\n       ^^^^^^^\nNameError: name 'Confirm' is not defined",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T21:15:46.759018",
+    "command": "code edit /home/jafar/Projects/jafar_v2/jafar/assistant_core/image_handler.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T21:18:23.478982",
+    "command": "code jafar/cli/code_handlers.py:160",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T21:24:18.707538",
+    "command": "code jafar/cli/code_handlers.py:160",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T21:36:41.951682",
+    "command": "jafar@Timuraka jafar_v2  jafar ❯ code jafar/cli/code_handlers.py:160\n📨 Отправляю запрос...\n⏳ Ожидаю завершения выполнения...\n❌ Ошибка: Error code: 500 - {'error': {'message': 'The server had an error while processing\nyour request. Sorry about that!', 'type': 'server_error', 'param': None, 'code': None}}\nTraceback (most recent call last):\n  File \"/home/jafar/Projects/jafar_v2/jafar/cli/main.py\", line 111, in main\n    response = observe_and_respond(command)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/jafar/Projects/jafar_v2/jafar/assistant_core/ai_watcher.py\", line 8, in observe_and_respond\n    result = ask_assistant(prompt)\n             ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/jafar/Projects/jafar_v2/jafar/assistant_core/assistant_api.py\", line 40, in ask_assistant\n    client.beta.threads.runs.create_and_poll(\n  File \"/home/jafar/Projects/jafar_v2/.venv/lib/python3.12/site-packages/typing_extensions.py\", line 2950, in wrapper\n    return arg(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/home/jafar/Projects/jafar_v2/.venv/lib/python3.12/site-packages/openai/resources/beta/threads/runs/runs.py\", line 834, in create_and_poll\n    run = self.create(  # pyright: ignore[reportDeprecated]\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/jafar/Projects/jafar_v2/.venv/lib/python3.12/site-packages/typing_extensions.py\", line 2950, in wrapper\n    return arg(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/home/jafar/Projects/jafar_v2/.venv/lib/python3.12/site-packages/openai/_utils/_utils.py\", line 287, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/jafar/Projects/jafar_v2/.venv/lib/python3.12/site-packages/openai/resources/beta/threads/runs/runs.py\", line 572, in create\n    return self._post(\n           ^^^^^^^^^^^\n  File \"/home/jafar/Projects/jafar_v2/.venv/lib/python3.12/site-packages/openai/_base_client.py\", line 1249, in post\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/jafar/Projects/jafar_v2/.venv/lib/python3.12/site-packages/openai/_base_client.py\", line 1037, in request\n    raise self._make_status_error_from_response(err.response) from None\nopenai.InternalServerError: Error code: 500 - {'error': {'message': 'The server had an error while processing your request. Sorry about that!', 'type': 'server_error', 'param': None, 'code': None}}",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T21:44:19.882384",
+    "command": "project tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T21:53:05.202451",
+    "command": "jafar@Timuraka jafar_v2  jafar ❯ code jafar/cli/code_handlers.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T21:54:02.145978",
+    "command": "cd jafar_v2",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T21:54:20.983201",
+    "command": "project jafar_v2",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T21:54:37.479268",
+    "command": "projects",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T21:55:33.474640",
+    "command": "cd ..",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T21:56:34.467513",
+    "command": "code edit /home/jafar/Projects/jafar_v2/jafar/assistant_core/assistant_api.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T21:58:54.566591",
+    "command": "help",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T22:01:34.609364",
+    "command": "code edit /home/jafar/Projects/jafar_v2/jafar/assistant_core/ai_watcher.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T22:47:08.779951",
+    "command": "code edit /home/jafar/Projects/jafar_v2/jafar/assistant_core/ai_watcher.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T22:55:51.156099",
+    "command": "code edit /home/jafar/Projects/jafar_v2/jafar/assistant_core/ai_watcher.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T23:13:53.705110",
+    "command": "поработаем над улучшением тебя?",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T23:42:15.643331",
+    "command": "code edit /home/jafar/Projects/jafar_v2/jafar/cli/command_router.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T23:43:01.979083",
+    "command": "как?",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-23T23:55:27.549527",
+    "command": "project status",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T00:20:47.543272",
+    "command": "что делаем?",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T00:21:52.970071",
+    "command": "пройдись по проекту и изучи jafar",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T00:22:46.508777",
+    "command": "посмотрел?",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T00:24:01.822625",
+    "command": "code edit /home/jafar/Projects/jafar_v2/jafar/core/game_mode.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T00:24:33.597025",
+    "command": "code pytest /home/jafar/Projects/jafar_v2/jafar/core/game_mode.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T00:29:26.681116",
+    "command": "prohub",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T00:29:42.908626",
+    "command": "prohub tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T01:12:33.319951",
+    "command": "help",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T01:15:04.878721",
+    "command": "code edit /home/jafar/Projects/jafar_v2/jafar/core/trainer_mode.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T02:14:30.282472",
+    "command": "code",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T02:14:59.520767",
+    "command": "code save test.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T02:15:47.635059",
+    "command": "project list",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T02:17:30.929845",
+    "command": "project status",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T02:17:55.843346",
+    "command": "project run TradeSpace-MVPPDO",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T02:18:38.137986",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T02:19:11.528557",
+    "command": "github status",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T02:20:20.417475",
+    "command": "abracadabra",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T02:21:05.665765",
+    "command": "code explain несуществующий.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T02:21:21.851327",
+    "command": "project run пусто",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T02:21:36.646311",
+    "command": "project run",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T02:50:48.182368",
+    "command": "project tms_backend status",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T02:55:00.904401",
+    "command": "project status",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T02:55:13.483981",
+    "command": "project tms_backend status",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T03:03:03.635151",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T03:05:15.371828",
+    "command": "list_my_tasks",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T03:12:36.827501",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T03:53:47.035667",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T04:42:36.247886",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T04:43:25.776414",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T04:50:35.839675",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T04:54:46.452399",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T04:55:38.931507",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T04:55:48.735366",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T05:01:11.898879",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T05:05:45.344806",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T05:18:35.610404",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T19:58:52.011422",
+    "command": "help",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T20:14:02.459740",
+    "command": "у меня водитель с траком в огайо, нужно ему подобрать груз до NY из amazon",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T20:21:14.295309",
+    "command": "нам нужно в jafar сделать игровой режим внутри CLI",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T21:12:47.527577",
+    "command": "нужно создать электронную почту bo google workspace",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T21:13:38.438001",
+    "command": "а для новых пользователей?",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T21:43:57.227468",
+    "command": "Two Open IAs on two phones were talking to each other, suddenly they found out thath both of them are AI and then suddenly started talking to each other in an encrypted language, Is that real?",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T21:44:55.571366",
+    "command": "Tell me about Timur Marufkhadjaev",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-24T21:45:16.634390",
+    "command": "Who am I?",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-25T15:51:30.761708",
+    "command": "cd ..",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-25T23:16:00.625665",
+    "command": "code pytest /home/jafar/Projects/jafar_v2/jafar/cli/mode_handlers.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-25T23:24:23.912018",
+    "command": "pytest /home/jafar/Projects/jafar_v2/jafar/utils/project_utils.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-25T23:34:58.608240",
+    "command": "jafar ❯ pytest /home/jafar/Projects/jafar_v2/jafar/utils/project_utils.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-25T23:36:21.297029",
+    "command": "pytest /home/jafar/Projects/jafar_v2/jafar/cli/utils.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-25T23:36:42.266701",
+    "command": "pytest /home/jafar/Projects/jafar_v2/jafar/cli/utils.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T11:19:12.797403",
+    "command": "clear",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T12:31:43.888199",
+    "command": "project tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T12:32:11.377445",
+    "command": "git status",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T15:32:50.089020",
+    "command": "code что с файлом /home/jafar/Projects/jafar_v2/setup.py когда мы его будем использовать?",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T15:33:30.209288",
+    "command": "code что с файлом /home/jafar/Projects/jafar_v2/setup.\npy",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T15:36:49.711977",
+    "command": "объясни файл apps/dispatch/models.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T15:43:09.157951",
+    "command": "этот файл или code внутри файла вызывает ошибку, исправь его /home/jafar/Projects/jafar_v2/jafar/cli/tool_handlers.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T15:44:09.307637",
+    "command": "покажи его",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T15:47:10.115566",
+    "command": "исправь /home/jafar/Projects/jafar_v2/jafar/cli/tool_handlers.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T15:47:32.936735",
+    "command": "code исправь /home/jafar/Projects/jafar_v2/jafar/cli/tool_handlers.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T16:26:10.520174",
+    "command": "Объясни, что делает вот этот файл — похоже, он связан с логикой входа: /home/jafar/Projects/tms_backend/apps/auth/views/login.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T16:28:32.073479",
+    "command": "Сравни вот эти два: старый и новый — что поменялось? /home/jafar/Projects/jafar_v2/jafar/cli/evolution.py /home/jafar/Projects/jafar_v2/jafar/cli/ai_handlers.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T16:29:53.676463",
+    "command": "evo",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T16:32:43.036108",
+    "command": "Этот файл постоянно ломается на этапе миграций, исправь его пожалуйста: /home/jafar/Projects/jafar_v2/jafar/tools/tmux_test.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T16:39:27.863689",
+    "command": "этот файл вызывает ошибку: /home/jafar/Projects/jafar_v2/jafar/cli/pytest_handlers.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T16:50:18.482971",
+    "command": "протестируй /home/jafar/Projects/tms_backend/apps/business/models.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T16:55:16.203847",
+    "command": "протестируй /home/jafar/Projects/tms_backend/apps/business/models.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T16:58:33.753997",
+    "command": "протестируй /home/jafar/Projects/tms_backend/apps/business/models.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T16:59:07.598165",
+    "command": "протестируй /home/jafar/Projects/tms_backend/apps/business/models.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T17:17:41.521008",
+    "command": "объясни ошибку ❌ Error: name 'shutil' is not defined\nTraceback (most recent call last):\n  File \"/home/jafar/Projects/jafar_v2/jafar/cli/main.py\", line 145, in main\n    handle_command(command)\n  File \"/home/jafar/Projects/jafar_v2/jafar/cli/command_router.py\", line 88, in handle_command\n    if route_by_intent(command):\n       ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/jafar/Projects/jafar_v2/jafar/cli/intent_router.py\", line 62, in route_by_intent\n    edit_file_by_path(filepath)\n  File \"/home/jafar/Projects/jafar_v2/jafar/cli/code_handlers.py\", line 424, in edit_file_by_path\n    shutil.copy(filepath, backup_path)\n    ^^^^^^\nNameError: name 'shutil' is not defined. Did you forget to import 'shutil'",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T17:21:54.026134",
+    "command": "исправь /home/jafar/Projects/jafar_v2/jafar/config/constants.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T17:23:33.007862",
+    "command": "push",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T17:28:00.293281",
+    "command": "cd ~/Projects/jafar_v2\ngit add .\ngit commit -m \"Завершён этап CLI: правка сохранения, тестов, автозапуск venv\"\ngit push origin main",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T20:27:05.037148",
+    "command": "запусти проект tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T20:31:09.244661",
+    "command": "как запустить проект tms_backend? Посмотри инструкцию внутри него",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T20:44:11.211017",
+    "command": "run tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T21:07:01.530287",
+    "command": "run tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T21:15:01.509482",
+    "command": "run tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T21:16:38.872769",
+    "command": "run tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T21:18:11.740964",
+    "command": "run tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T21:19:08.191583",
+    "command": "исправить jafar@Timuraka jafar_v2  jafar ❯ run tms_backend\n🚀 Запускаем tms_backend с помощью make run...\nmake[1]: Entering directory '/home/jafar/Projects/tms_backend'\nmake[1]: *** No rule to make target 'run'.  Stop.\nmake[1]: Leaving directory '/home/jafar/Projects/tms_backend'",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T21:30:51.425245",
+    "command": "run tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T21:31:04.544886",
+    "command": "run tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T21:39:28.660393",
+    "command": "run tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T22:08:07.928433",
+    "command": "run tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T22:36:33.381643",
+    "command": "project list",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T22:36:45.426914",
+    "command": "project status",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T23:07:50.140113",
+    "command": "push jafar_v2",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T23:15:07.929312",
+    "command": "project tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T23:15:18.503283",
+    "command": "next_task tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T23:20:32.924533",
+    "command": "next task",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T23:26:00.372690",
+    "command": "next_task tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T23:55:16.191348",
+    "command": "next_task tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T23:55:29.868880",
+    "command": "30",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-26T23:55:56.634276",
+    "command": "30",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T00:02:18.408370",
+    "command": "next_task tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T00:06:29.971772",
+    "command": "next_task tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T00:13:49.876411",
+    "command": "next_task tms_backend board",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T00:23:08.554082",
+    "command": "next_task tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T00:24:49.488582",
+    "command": "next_task tms_backend board",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T00:41:14.603248",
+    "command": "clear",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T17:05:07.627612",
+    "command": "project tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T17:18:21.232051",
+    "command": "make down",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T17:22:47.848012",
+    "command": "run tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T17:22:47.858377",
+    "command": "run tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T17:28:09.917280",
+    "command": "ошибка root@7cd4cc56757a:/app# python manage.py create_dev_business\nSystem check identified some issues:\n\nWARNINGS:\n?: (staticfiles.W004) The directory '/app/config/config/staticfiles' in the STATICFILES_DIRS setting does not exist.\nCommandError: Failed to create development setup: column business_business.stripe_customer_id does not exist\nLINE 1: ...\".\"created_at\", \"business_business\".\"updated_at\", \"business_...",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T17:46:29.276710",
+    "command": "run tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T18:01:16.793616",
+    "command": "посмотри в файлах, как я могу обновиться из github рупозитории свой проект? В github есть обновления",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T18:02:06.046696",
+    "command": "git pull origin нужно сделать, дай инструкцию",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T18:39:32.207223",
+    "command": "run tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T18:39:32.235627",
+    "command": "run tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T18:42:32.213906",
+    "command": "github tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T18:43:11.160826",
+    "command": "github inspect tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T18:43:27.812120",
+    "command": "github tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T18:46:51.655586",
+    "command": "project tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T18:47:14.216801",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T18:55:17.966663",
+    "command": "ai я случайно в репозиторий загрузил файл .env в проекте jafar, как мне ее удалить и историю?",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T19:33:52.670828",
+    "command": "github tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T19:34:10.762158",
+    "command": "project tms_backebd",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T20:18:05.044964",
+    "command": "project tms_backebd",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T20:18:17.884266",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T21:38:34.459516",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T21:38:46.363358",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-27T23:18:56.507356",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-06-29T15:29:33.135393",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-03T01:04:10.648478",
+    "command": "проерка",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-03T01:07:02.246707",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-03T01:07:33.365567",
+    "command": "next task tms_backend?",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-03T01:08:03.224116",
+    "command": "next task tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-03T01:10:26.574569",
+    "command": "next_Task tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-03T01:16:48.968690",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-03T16:04:39.919265",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-04T16:54:37.713509",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-04T17:24:19.878125",
+    "command": "next_task tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-04T18:00:00.618181",
+    "command": "исправь ❌ Error: [Errno 2] No such file or directory: 'pytest'\nTraceback (most recent call last):\n  File \"/home/jafar/Projects/jafar/jafar/cli/main.py\", line 152, in main\n    handle_command(command, interactive_session=True)\n  File \"/home/jafar/Projects/jafar/jafar/cli/command_router.py\", line 122, in handle_command\n    command_handlers[action](args)\n  File \"/home/jafar/Projects/jafar/jafar/cli/pytest_handlers.py\", line 66, in pytest_command\n    result = subprocess.run([\"pytest\", test_file], cwd=get_projects_root())\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'pytest'",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-04T18:01:33.435753",
+    "command": "исправь │ Запуск pytest для /home/jafar/Projects/tests/test_pdf_parser.py…                                      │\n╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯\n❌ Error: [Errno 2] No such file or directory: 'pytest'\nTraceback (most recent call last):\n  File \"/home/jafar/Projects/jafar/jafar/cli/main.py\", line 152, in main\n  File \"/home/jafar/Projects/jafar/jafar/cli/command_router.py\", line 122, in handle_command\n    command_handlers[action](args)\n  File \"/home/jafar/Projects/jafar/jafar/cli/pytest_handlers.py\", line 66, in pytest_command\n    result = subprocess.run([\"pytest\", test_file], cwd=get_projects_root())\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'pytest'",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-04T18:39:13.274754",
+    "command": "help",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-04T18:41:19.420273",
+    "command": "pytest /home/jafar/Projects/tms_backend/apps/dispatch/pdf_parser.py обясни в конце",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-04T18:43:20.294351",
+    "command": "исправь ❌ Error: [Errno 2] No such file or directory: 'pytest'\nTraceback (most recent call last):\n  File \"/home/jafar/Projects/jafar/jafar/cli/main.py\", line 152, in main\n    handle_command(command, interactive_session=True)\n  File \"/home/jafar/Projects/jafar/jafar/cli/command_router.py\", line 122, in handle_command\n    command_handlers[action](args)\n  File \"/home/jafar/Projects/jafar/jafar/cli/pytest_handlers.py\", line 66, in pytest_command\n    result = subprocess.run([\"pytest\", test_file], cwd=get_projects_root())\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'pytest'",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-04T18:45:50.889961",
+    "command": "объясни ошибку ❌ Error: [Errno 2] No such file or directory: 'pytest'\nTraceback (most recent call last):\n  File \"/home/jafar/Projects/jafar/jafar/cli/main.py\", line 151, in main\n    handle_command(command, interactive_session=True)\n  File \"/home/jafar/Projects/jafar/jafar/cli/command_router.py\", line 122, in handle_command\n    command_handlers[action](args)\n  File \"/home/jafar/Projects/jafar/jafar/cli/pytest_handlers.py\", line 66, in pytest_command\n    result = subprocess.run([\"pytest\", test_file], cwd=get_projects_root())\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'pytest'",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-04T18:46:18.192618",
+    "command": "давай установим",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-04T18:47:31.308158",
+    "command": "pytest /home/jafar/Projects/tms_backend/apps/dispatch/pdf_parser.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-04T18:50:24.961149",
+    "command": "pytest /home/jafar/Projects/tms_backend/apps/dispatch/tests/test_pdf_parser.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-04T18:50:48.151327",
+    "command": "pytest -v /home/jafar/Projects/tms_backend/apps/dispatch/tests/test_pdf_parser.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-04T18:57:53.407607",
+    "command": "code /home/jafar/Projects/tms_backend/apps/dispatch/pdf_parser.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-04T18:58:27.556404",
+    "command": "code explain /home/jafar/Projects/tms_backend/apps/dispatch/pdf_parser.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-04T19:00:05.260259",
+    "command": "pytest /home/jafar/Projects/tms_backend/apps/dispatch/pdf_parser.py",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-04T19:05:57.332297",
+    "command": "code explain \\ ERRORS ====================================  │\n │    ___________ ERROR collecting apps/dispatch/tests/test_pdf_parser.py ____________  │\n │    Fixture \"mock_cowtown_pdf_text\" called directly. Fixtures are not meant to be     │\n │    called directly,                                                                  │\n │    but are created automatically when test functions request them as parameters.     │\n │    See https://docs.pytest.org/en/stable/explanation/fixtures.html for more          │\n │    information about fixtures, and                                                   │\n │    https://docs.pytest.org/en/stable/deprecations.html#calling-fixtures-directly     │\n │    about how to update your code.                                                    │\n │    =========================== short test summary info ============================  │\n │    ERROR apps/dispatch/tests/test_pdf_parser.py - Failed: Fixture \"mock_cowtown_...  │\n │    !!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!  │\n │    =============================== 1 error in 0.25s =\\",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-04T23:28:51.789135",
+    "command": "chat_input",
+    "result": "проверка"
+  },
+  {
+    "timestamp": "2025-07-04T23:29:05.690051",
+    "command": "chat_response",
+    "result": "Недостаточно данных для выполнения действия. Уточните, что конкретно требуется проверить: работоспособность тестов, функции, фикстур или структуру проекта."
+  },
+  {
+    "timestamp": "2025-07-04T23:29:05.694947",
+    "command": "chat проверка",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-06T12:42:12.197161",
+    "command": "project summary tms_backenf",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-06T12:42:28.142075",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-06T12:43:34.861448",
+    "command": "project summary tms_frontend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-06T13:00:24.968206",
+    "command": "project summary tms_frontend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-06T13:00:57.238057",
+    "command": "project summary tms_frontend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-06T13:02:58.572685",
+    "command": "project summary tms_frontend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-06T13:48:00.038028",
+    "command": "help",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-06T13:48:35.567485",
+    "command": "project start tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-07T05:05:26.011729",
+    "command": "project run tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-11T14:45:09.847761",
+    "command": "project start tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-11T14:46:07.742285",
+    "command": "project run tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-11T15:44:37.683002",
+    "command": "projects",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-11T15:44:45.937170",
+    "command": "project",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-11T15:44:54.506911",
+    "command": "project list",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-11T15:59:31.128699",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-11T16:09:49.908721",
+    "command": "github",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-11T16:10:30.975211",
+    "command": "github status",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-11T16:16:48.093010",
+    "command": "project",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-11T16:17:25.059101",
+    "command": "project readme tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-11T16:18:01.847204",
+    "command": "project readme tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-11T17:18:26.351775",
+    "command": "project makefile tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-13T12:28:12.880787",
+    "command": "project summary tms_project",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-13T12:28:35.354996",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-14T17:15:25.851843",
+    "command": "explain ❌ Error: [Errno 2] No such file or directory: 'pytest'\nTraceback (most recent call last):\n  File \"/home/jafar/Projects/jafar/jafar/cli/main.py\", line 151, in main\n    handle_command(command, interactive_session=True)\n  File \"/home/jafar/Projects/jafar/jafar/cli/command_router.py\", line 122, in handle_command\n    command_handlers[action](args)\n  File \"/home/jafar/Projects/jafar/jafar/cli/pytest_handlers.py\", line 66, in pytest_command\n    result = subprocess.run([\"pytest\", test_file], cwd=get_projects_root())\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'pytest'",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-14T17:21:15.429181",
+    "command": "code",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-14T17:21:49.189451",
+    "command": "code explain  Error: [Errno 2] No such file or directory: 'pytest'\nTraceback (most recent call last):\n  File \"/home/jafar/Projects/jafar/jafar/cli/main.py\", line 151, in main\n    handle_command(command, interactive_session=True)\n  File \"/home/jafar/Projects/jafar/jafar/cli/command_router.py\", line 122, in handle_command\n    command_handlers[action](args)\n  File \"/home/jafar/Projects/jafar/jafar/cli/pytest_handlers.py\", line 66, in pytest_command\n    result = subprocess.run([\"pytest\", test_file], cwd=get_projects_root())\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'pytest'",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-14T17:22:16.590370",
+    "command": "code compare \\",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-18T00:26:50.601178",
+    "command": "project summary tms_project",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-18T00:27:10.926672",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-21T17:01:24.571315",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-21T17:07:45.827206",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-21T17:11:02.379013",
+    "command": "github",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-21T17:11:17.381829",
+    "command": "github push",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-21T20:53:09.020761",
+    "command": "/analyze_screenshot /home/jafar/Projects/screenshots/image.png",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-21T20:59:08.884416",
+    "command": "/analyze_screenshot /home/jafar/Projects/screenshots/image.png",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-21T21:01:02.189825",
+    "command": "/analyze_screenshot /home/jafar/Projects/screenshots/image.png",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-21T21:14:52.904417",
+    "command": "/analyze_screenshot /home/jafar/Projects/screenshots/image.png /home/jafar/Projects/screenshots/image copy.png",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-21T21:16:29.863056",
+    "command": "/analyze_screenshot /home/jafar/Projects/screenshots/image.png /home/jafar/Projects/screenshots/imagecopy.png",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-21T21:21:57.088032",
+    "command": "/analyze_screenshot /home/jafar/Projects/screenshots/image.png /home/jafar/Projects/screenshots/imagecopy.png",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T17:39:43.952228",
+    "command": "code",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T17:41:19.895740",
+    "command": "help",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T17:46:39.901304",
+    "command": "project summary jafar",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T19:08:40.697846",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T19:34:01.188825",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T19:48:04.851310",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T19:50:58.140388",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T20:18:13.756462",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T20:19:52.621666",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T20:21:10.532119",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T20:51:44.253737",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T21:09:38.065926",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T21:16:18.282351",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T22:35:05.894886",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T22:48:47.426516",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T22:52:36.024800",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T22:57:31.293639",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T22:59:59.512330",
+    "command": "set_default_screenshot_region 60 120 1690 780",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T23:01:43.455473",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T23:02:19.062705",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T23:02:54.676671",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T23:04:18.086312",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T23:11:59.600548",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T23:13:54.318539",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T23:27:47.853770",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T23:28:49.201672",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T23:32:57.582810",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T23:43:32.416401",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-22T23:44:26.287684",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-23T01:07:50.406060",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-23T01:21:22.524480",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-23T01:26:21.738842",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-23T01:31:28.858682",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-23T01:49:35.690878",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-23T01:58:27.250120",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-23T01:59:20.684063",
+    "command": "scrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-23T01:59:40.055877",
+    "command": "help",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-23T02:29:01.454685",
+    "command": "help",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-23T02:30:30.160167",
+    "command": "github",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-23T02:31:14.145025",
+    "command": "github push jafar",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-23T02:31:31.131780",
+    "command": "github push",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-23T02:48:15.502669",
+    "command": "/scrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-23T02:48:27.428617",
+    "command": "scrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-23T15:03:14.756436",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-24T00:01:29.614338",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-24T00:07:54.736854",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-24T00:18:42.625200",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-24T00:19:35.444252",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-24T00:35:17.433587",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-24T00:58:08.681795",
+    "command": "news",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-24T01:24:26.065109",
+    "command": "help",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-24T01:33:08.640389",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-24T01:43:48.755473",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-24T01:53:57.303489",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-24T01:56:16.105568",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-24T02:17:47.779150",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-24T02:26:19.741214",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-24T02:28:29.729139",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-24T02:28:49.206473",
+    "command": "next_task",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-24T02:31:57.021111",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-24T02:42:15.641726",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-25T20:45:03.496045",
+    "command": "news",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-25T21:24:31.979720",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T01:41:32.317775",
+    "command": "/news",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T05:25:30.921437",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T05:29:15.739906",
+    "command": "voice listen",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T05:29:33.713955",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T05:35:41.945666",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T05:35:54.420921",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T05:40:13.125172",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T05:49:52.115806",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T05:50:05.302347",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T05:50:59.768495",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T05:51:41.195270",
+    "command": "voice listen",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T05:52:04.536699",
+    "command": "voice listen",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T05:52:25.860018",
+    "command": "voice listen",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T05:54:10.105122",
+    "command": "voice listen",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T06:00:09.957735",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T06:00:17.107638",
+    "command": "voice listen",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T06:04:30.799845",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T06:09:23.018530",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T06:56:30.893505",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T07:04:23.970337",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T07:07:10.454337",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T07:10:30.672745",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T07:13:46.197983",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T07:19:56.416589",
+    "command": "exit",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T07:20:57.052940",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T08:05:17.858493",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T08:10:11.538825",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T08:12:35.644251",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T08:13:39.431880",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T08:14:38.585655",
+    "command": "project summary tms_backend",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T08:32:01.656178",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T08:44:06.624533",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-07-26T08:51:49.251311",
+    "command": "voice on",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T04:02:54.997973",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T04:04:31.658710",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T04:12:06.894970",
+    "command": "clear",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T04:13:22.105138",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T04:17:45.007924",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T04:29:05.165398",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T04:30:05.814981",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T04:41:36.721986",
+    "command": "analyze_screenshot",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T04:42:49.309363",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T04:44:16.127404",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T04:45:21.210230",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T04:48:50.374145",
+    "command": "scrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T04:51:21.209785",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T04:54:39.183812",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T04:58:45.944133",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T05:01:16.570803",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T05:13:38.761679",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T05:15:28.051634",
+    "command": "scrn\n     '/Users/macbook/projects/jafar/screenshot/2025-08-03_04-05-56/s\n     creenshot_04-06-02-236187000.png \n     /Users/macbook/projects/jafar/screenshot/2025-08-03_04-05-56/sc\n     reenshot_04-06-08-566130000.png \n     /Users/macbook/projects/jafar/screenshot/2025-08-03_04-05-56/sc\n     reenshot_04-06-14-885557000.png \n     /Users/macbook/projects/jafar/screenshot/2025-08-03_04-05-56/sc\n     reenshot_04-06-21-227402000.png'",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T05:16:31.588318",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T05:25:50.262912",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T05:29:05.857146",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T05:31:45.969677",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T05:35:27.584429",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T05:38:51.850153",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T05:41:07.496842",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T05:52:36.531238",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T05:59:18.455396",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T06:03:45.490211",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T06:14:59.078093",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T06:25:53.378211",
+    "command": "send_latest_analysis",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T06:30:57.409834",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T06:34:31.708620",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T06:38:31.851583",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T06:42:51.868286",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T06:48:50.392028",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T06:58:50.865997",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T07:17:21.043208",
+    "command": "/news",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T07:36:44.575908",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T17:31:42.852692",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T17:39:02.201632",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T17:48:59.563195",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T17:51:39.255926",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T17:56:10.836542",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T17:56:56.392503",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T18:00:55.012187",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T18:01:20.648243",
+    "command": "code",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T18:02:14.626383",
+    "command": "Произошла ошибка во время интерактивного \nанализа: 'dict' object has no attribute 'lower'",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T18:17:15.582078",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T18:20:56.285622",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T18:29:08.213559",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T18:32:09.217395",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T18:40:13.828637",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T18:48:11.373676",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T18:50:55.264375",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T18:59:31.753347",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T19:23:17.572496",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T19:41:40.045144",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T19:50:01.776482",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T20:04:23.617166",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T20:04:35.224263",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T20:11:43.132754",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T20:15:22.959156",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T20:15:29.884057",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T22:54:07.460704",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-03T22:54:29.541882",
+    "command": "1",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-04T00:43:30.312950",
+    "command": "help",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-04T00:44:09.814918",
+    "command": "chat_input",
+    "result": "что такое api"
+  },
+  {
+    "timestamp": "2025-08-04T00:44:18.817842",
+    "command": "chat_response",
+    "result": "что такое api"
+  },
+  {
+    "timestamp": "2025-08-04T00:44:18.828464",
+    "command": "chat что такое api",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-04T00:47:21.759343",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-04T01:16:49.875083",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-04T13:54:30.570737",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-05T17:50:20.269438",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-05T18:30:40.098391",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-06T17:21:04.261953",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-06T17:22:36.261099",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-06T17:38:58.907497",
+    "command": "voice listen",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-06T17:49:17.746903",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-06T18:07:33.805972",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-06T19:52:21.699483",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-06T20:25:21.962904",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-06T20:41:22.531186",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-06T21:03:14.663281",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-06T23:46:32.790535",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-07T00:51:56.303156",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-07T01:04:30.607294",
+    "command": "addfound sp500",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-07T01:07:39.259719",
+    "command": "addfound sp500",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-07T01:14:08.725147",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-07T01:30:48.767833",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-07T01:32:12.155108",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-07T01:34:19.532564",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-07T02:03:15.291361",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-07T02:05:30.364804",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-07T02:16:31.872764",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-07T02:33:04.375473",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-07T02:41:20.306602",
+    "command": "addfound sp500",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-07T02:44:19.187617",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-07T02:47:51.709861",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-07T02:49:47.155808",
+    "command": "addfound sp500",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-07T02:53:35.651412",
+    "command": "addfound sp500",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-07T02:55:54.600754",
+    "command": "addfound sp500",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-07T03:03:38.479816",
+    "command": "addfound sp500",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-07T04:46:05.985930",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-07T17:23:06.367389",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-07T17:25:58.501818",
+    "command": "addfound sp500",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-08T21:19:29.105942",
+    "command": "mt5scrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-08T21:29:12.843143",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-08T21:30:49.962329",
+    "command": "addscrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-08T21:35:28.036997",
+    "command": "mt5scrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-09T15:22:40.625523",
+    "command": "mt5scrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-09T17:44:27.482834",
+    "command": "mt5scrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-09T18:07:23.752782",
+    "command": "addfound btcusd",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-09T18:46:01.472307",
+    "command": "mt5scrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-09T18:46:54.385529",
+    "command": "addfound btcusd",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-09T18:59:57.090601",
+    "command": "mt5scrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-09T19:01:35.310120",
+    "command": "addfound btcusd",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-09T20:03:20.563487",
+    "command": "mt5scrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-09T20:05:41.630731",
+    "command": "addfound btcusd",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-09T20:17:41.855839",
+    "command": "mt5scrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-09T20:24:08.298393",
+    "command": "mt5scrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-09T20:51:11.528845",
+    "command": "mt5scrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-09T21:57:07.660868",
+    "command": "mt5scrn",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-09T22:01:13.772527",
+    "command": "addfound btcusd",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-09T22:19:23.077010",
+    "command": "addfound btcusd",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-10T03:09:48.414028",
+    "command": "intraday",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-10T03:13:10.260503",
+    "command": "intraday",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-10T03:17:53.058858",
+    "command": "intraday",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-10T03:49:03.780164",
+    "command": "intraday",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-10T03:51:51.063797",
+    "command": "intraday",
+    "result": null
+  },
+  {
+    "timestamp": "2025-08-10T04:00:45.709644",
+    "command": "intraday",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-11T10:02:56.996243",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-11T10:03:20.967520",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-11T10:04:13.176567",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-11T10:07:32.479277",
+    "command": "intraday4",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-11T10:11:34.046995",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-11T10:13:08.206962",
+    "command": "привет",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-11T10:16:26.108897",
+    "command": "привет",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-11T10:19:31.395611",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-11T10:33:22.758177",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-11T11:10:49.891288",
+    "command": "intraday4",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-11T11:11:10.722228",
+    "command": "help",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-11T18:59:49.885633",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-13T13:51:46.657318",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-13T14:18:38.114610",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-13T15:48:03.483441",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-13T16:36:16.625813",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-14T17:48:44.995292",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-14T18:17:11.545347",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-14T20:03:43.959362",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-14T22:04:51.353013",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-14T22:23:38.868777",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-15T13:45:46.099634",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-15T14:04:41.530741",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-15T14:19:15.640988",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-15T17:31:45.692797",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-15T19:53:47.031231",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-15T21:57:50.221365",
+    "command": "clear",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-16T12:40:56.737940",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-16T17:33:38.924012",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-16T17:55:17.398631",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-17T14:44:25.105122",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-17T14:51:58.470286",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-17T15:13:38.849934",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-17T15:38:05.143668",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-17T16:00:04.301450",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-17T17:32:22.272721",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-17T17:52:31.706617",
+    "command": "scalp",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-17T17:58:16.744452",
+    "command": "scalp",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-17T18:02:27.634923",
+    "command": "scalp",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-17T18:30:03.677397",
+    "command": "scalp",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-17T18:47:23.475540",
+    "command": "scalp",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-20T15:44:08.150043",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-20T17:36:24.771759",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-20T17:58:07.708082",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-21T04:14:09.135341",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-21T10:57:36.941989",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-21T16:45:49.092025",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-21T17:16:34.192363",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-21T17:48:28.426404",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-21T18:03:02.284353",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-21T18:39:12.506495",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-21T18:55:28.724391",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-21T19:21:06.527977",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-22T06:35:57.157211",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-22T08:01:50.840739",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-22T08:30:05.219758",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-22T08:35:02.529890",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-22T13:31:05.960191",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-22T14:04:44.968913",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-22T14:13:05.232090",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-22T14:23:17.086680",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-22T14:36:25.072822",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-22T14:54:48.627540",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-22T16:10:25.625532",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-22T16:27:29.525482",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-22T16:32:58.663391",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-22T17:01:47.611124",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-22T18:28:45.382763",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-22T19:03:35.374362",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-23T16:36:28.642583",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-23T17:25:31.929901",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-23T17:50:21.122667",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-23T17:59:27.982042",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-23T17:59:48.216306",
+    "command": "gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-23T18:00:11.436139",
+    "command": "gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-23T18:32:21.851926",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-23T19:00:22.658192",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-23T19:03:38.827216",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-23T19:13:07.458600",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-23T20:29:14.010862",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-24T15:55:18.889297",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-24T15:57:41.519248",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-24T16:06:58.338795",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-24T16:49:47.125430",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-24T16:51:23.508127",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-24T17:38:08.264897",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-24T17:53:58.796569",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-24T19:47:16.417188",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-24T19:59:49.877620",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-24T20:36:44.663309",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-24T21:01:38.737364",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-24T21:30:40.945003",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-24T21:34:20.522146",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-25T13:52:21.949458",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-27T13:52:58.842383",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-27T13:55:55.910473",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-27T14:11:19.172110",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-27T15:41:24.972645",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-27T17:52:15.902995",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-27T18:23:31.773321",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-27T18:43:05.405611",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-27T18:51:07.829576",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-27T19:19:33.420412",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-27T19:26:56.964517",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-27T19:32:54.110481",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-27T21:35:16.863711",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-27T21:43:27.745620",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-28T13:03:17.700060",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-28T13:20:37.473399",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-28T13:38:25.984388",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-28T13:44:08.693628",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-28T14:01:06.734718",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:51.877809",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-28T14:22:21.946513",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-28T15:38:18.579925",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-28T15:49:09.468567",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-28T16:38:33.670205",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-29T14:23:41.474675",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-29T14:49:36.560126",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-29T15:58:10.272844",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-29T16:14:02.201696",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-29T18:16:01.631277",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-29T18:24:53.269958",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-29T21:11:20.409253",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-29T23:14:17.161290",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-30T14:45:58.678119",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-30T15:05:22.536829",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-30T16:20:05.200019",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-30T17:13:29.976962",
+    "command": "qtrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-30T19:34:57.645741",
+    "command": "qtrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-30T19:48:01.280932",
+    "command": "qtrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-30T20:16:48.834118",
+    "command": "qtrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-30T21:05:33.829817",
+    "command": "qtrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-31T15:02:26.702185",
+    "command": "qtrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-31T15:42:56.127125",
+    "command": "qtrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-31T15:53:00.533228",
+    "command": "qtrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-31T16:21:40.098874",
+    "command": "qtrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-10-31T19:10:46.481801",
+    "command": "qtrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T02:21:02.831077",
+    "command": "atrade",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T02:22:43.756618",
+    "command": "atrdae GC",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T02:23:15.043428",
+    "command": "atrade GC",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T02:25:55.068946",
+    "command": "qtrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T02:29:02.096101",
+    "command": "qtrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T02:32:55.640035",
+    "command": "atrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T03:16:46.740836",
+    "command": "atrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T03:21:38.683025",
+    "command": "atrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T03:31:24.957506",
+    "command": "atrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T03:49:32.589207",
+    "command": "atrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T03:53:52.156086",
+    "command": "atrade bitcoin",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T04:05:32.797934",
+    "command": "atrade bitcoin",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T04:24:34.950929",
+    "command": "atrade bitcoin",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T04:27:13.333052",
+    "command": "atrade bitcoin",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T06:16:09.997311",
+    "command": "atrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T06:44:34.993405",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T06:45:44.714085",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T06:46:17.237647",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T06:49:16.685293",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T07:07:06.282868",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T07:08:10.548204",
+    "command": "analyze",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-03T09:04:09.974338",
+    "command": "atrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-04T12:41:54.287098",
+    "command": "atrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-04T15:31:46.566811",
+    "command": "atrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-04T17:33:12.708138",
+    "command": "atrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-04T17:33:52.285827",
+    "command": "atrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-04T17:37:10.143864",
+    "command": "atrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-04T17:52:44.018112",
+    "command": "atrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-04T18:20:22.193345",
+    "command": "atrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-04T19:27:53.060797",
+    "command": "atrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-04T23:12:56.423872",
+    "command": "atrade gold",
+    "result": null
+  },
+  {
+    "timestamp": "2025-11-05T00:09:29.841013",
+    "command": "atrade gold",
+    "result": null
+  }
+]

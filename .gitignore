@@ -1,0 +1,31 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Operating System
+.DS_Store
+
+# Temporary files
+temp/
+*.tmp
+*.bak
+*.swp
+
+# Screenshots and other images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.bmp
+*.pdf
+
+# Archives
+*.zip
+*.tar.gz

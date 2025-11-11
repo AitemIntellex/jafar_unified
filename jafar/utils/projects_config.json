@@ -1,0 +1,61 @@
+{
+  "AitemIntellex": {
+    "path": "/home/jafar/Projects/AitemIntellex",
+    "branch": "dev",
+    "owner": "Aitaminatellex",
+    "repo": "AitemIntellex"
+  },
+  "jafar": {
+    "path": "/home/jafar/Projects/jafar",
+    "branch": "dev",
+    "owner": "AitemIntellex",
+    "repo": "jafar",
+    "type": "cli",
+    "python_version": "3.12",
+    "venv_path": ".venv",
+    "docker": false,
+    "precommit": true
+  },
+  "tms_frontend": {
+    "branch": "dev",
+    "owner": "Cargosys",
+    "repo": "tms_frontend",
+    "type": "react",
+    "docker": false,
+    "precommit": true
+  },
+  "os_scripts": {
+    "path": "/home/jafar/Projects/os_scripts",
+    "branch": "dev",
+    "owner": "Aitaminatellex",
+    "repo": "os_scripts"
+  },
+  "tms_backend": {
+    "path": "/home/jafar/Projects/tms_backend",
+    "branch": "dev",
+    "owner": "Cargosys",
+    "repo": "tms_backend",
+    "type": "django",
+    "python_version": "3.13",
+    "venv_path": ".venv",
+    "docker": true,
+    "precommit": true
+  },
+  "TradeSpace-MVPPDO": {
+    "path": "/home/jafar/Projects/TradeSpace-MVPPDO",
+    "branch": "main",
+    "owner": "AitemIntellex",
+    "repo": "TradeSpace-MVPPDO",
+    "type": "django",
+    "python_version": "3.10",
+    "venv_path": ".venv",
+    "docker": false,
+    "precommit": false
+  },
+  "tms-private": {
+    "path": "/home/jafar/Projects/tms-private",
+    "branch": "dev",
+    "owner": "Cargosys",
+    "repo": "tms-private"
+  }
+}
