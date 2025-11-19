@@ -3,6 +3,7 @@ import requests
 from dotenv import load_dotenv
 from datetime import datetime, timedelta, timezone
 from typing import List, Dict, Any
+from newsapi import NewsApiClient
 
 # --- Setup ---
 load_dotenv()
@@ -19,31 +20,83 @@ def _print(message: str):
     else:
         print(message)
 
-# --- API Key ---
+# --- API Keys ---
 MARKETAUX_API_KEY = os.environ.get("MARKETAUX_API_KEY")
+NEWSAPI_API_KEY = os.environ.get("NEWSAPI_API_KEY")
 
-# --- Main Unified Function ---
+# --- Global Keywords for Market-Moving News ---
+MARKET_MOVING_KEYWORDS = [
+    'FOMC', 'Federal Reserve', 'ECB', 'Lagarde', 'Powell', 
+    'inflation', 'interest rates', 'geopolitics', 'market sentiment'
+]
 
-def get_unified_news(instrument: str, hours_ago: int = 48, top_n: int = 10) -> str:
+# --- NewsAPI.org Function ---
+def get_news_from_newsapi(hours_ago: int = 72, top_n: int = 10) -> str:
     """
-    Fetches news from Marketaux API, filters, and returns a formatted string.
+    Fetches news from NewsAPI.org based on a predefined list of market-moving keywords.
+    """
+    if not NEWSAPI_API_KEY or "YOUR_NEWSAPI_API_KEY" in NEWSAPI_API_KEY:
+        _print("[dim red]Ключ NewsAPI не настроен в файле .env.[/dim red]")
+        return "Ключ NewsAPI не настроен."
+
+    query = " OR ".join(f'"{keyword}"' for keyword in MARKET_MOVING_KEYWORDS)
+    _print(f"[cyan]Загрузка макроэкономических новостей из NewsAPI.org...[/cyan]")
+    _print(f"[dim]Поисковый запрос: {query}[/dim]")
+    
+    try:
+        newsapi = NewsApiClient(api_key=NEWSAPI_API_KEY)
+        from_date = (datetime.now(timezone.utc) - timedelta(hours=hours_ago)).strftime('%Y-%m-%dT%H:%M:%S')
+
+        articles = newsapi.get_everything(
+            q=query,
+            language='en',
+            sort_by='publishedAt', # Sort by newest first
+            page_size=20
+        )
+
+        if not articles or not articles.get('articles'):
+            _print(f"[dim yellow]NewsAPI.org: Нет статей по ключевым словам. Сырой ответ: {articles}[/dim yellow]")
+            return "Новости по ключевым макроэкономическим словам не найдены."
+
+        formatted_strings = []
+        for item in articles['articles']:
+            formatted_strings.append(
+                f"- (NewsAPI) [{datetime.fromisoformat(item.get('publishedAt').replace('Z', '+00:00')).strftime('%Y-%m-%d %H:%M')}] {item.get('title')}: {item.get('description') or 'N/A'}"
+            )
+        
+        if not formatted_strings:
+            return f"За последние {hours_ago} часов новости по ключевым словам не найдены."
+
+        _print(f"[green]{len(formatted_strings)} актуальных макро-новостей найдено в NewsAPI.org.[/green]")
+        return "\n".join(formatted_strings)
+
+    except Exception as e:
+        _print(f"[dim red]Ошибка NewsAPI: {e}[/dim red]")
+        return f"Ошибка при получении новостей от NewsAPI.org: {e}"
+
+
+# --- Marketaux Main Unified Function ---
+
+def get_unified_news(hours_ago: int = 72, top_n: int = 3) -> str:
+    """
+    Fetches news from Marketaux API based on a predefined list of market-moving keywords.
     """
     if not MARKETAUX_API_KEY or "YOUR_MARKETAUX_API_KEY" in MARKETAUX_API_KEY:
-        _print("[dim red]Marketaux API key is not configured in .env file.[/dim red]")
-        return "Marketaux API key не настроен."
+        _print("[dim red]Ключ Marketaux API не настроен в файле .env.[/dim red]")
+        return "Ключ Marketaux API не настроен."
 
-    _print(f"[cyan]Marketaux'дан '{instrument}' учун янгиликлар юкланмоқда...[/cyan]")
+    query = " OR ".join(f'"{keyword}"' for keyword in MARKET_MOVING_KEYWORDS)
+    _print(f"[cyan]Загрузка макроэкономических новостей из Marketaux...[/cyan]")
     
-    # Используем параметр 'search' для поиска по ключевым словам
     url = 'https://api.marketaux.com/v1/news/all'
     params = {
         'api_token': MARKETAUX_API_KEY,
-        'search': instrument,
+        'search': query,
         'language': 'en',
-        'limit': 3, # Ограничение по плану Marketaux
+        'limit': top_n,
     }
 
-    _print(f"[dim]Marketaux request URL: {requests.Request('GET', url, params=params).prepare().url}[/dim]")
+    _print(f"[dim]URL запроса Marketaux: {requests.Request('GET', url, params=params).prepare().url}[/dim]")
 
     try:
         response = requests.get(url, params=params)
@@ -51,35 +104,35 @@ def get_unified_news(instrument: str, hours_ago: int = 48, top_n: int = 10) -> s
         data = response.json().get('data', [])
         
         if not data:
-            return f"'{instrument}' учун Marketaux'дан янгиликлар топилмади."
+            _print(f"[dim yellow]Marketaux: Нет статей по ключевым словам. Сырой ответ: {response.json()}[/dim yellow]")
+            return "Новости по ключевым макро-словам в Marketaux не найдены."
 
         # --- Format for Prompt ---
         formatted_strings = []
         for item in data:
-            # Marketaux возвращает дату в формате '2023-11-18T12:30:00.000000Z'
             published_at_str = item.get('published_at')
             if not published_at_str: continue
 
             try:
                 published_at = datetime.fromisoformat(published_at_str.replace('Z', '+00:00'))
-                # Проверяем, что новость свежая
                 if published_at < datetime.now(timezone.utc) - timedelta(hours=hours_ago):
                     continue
 
                 formatted_strings.append(
-                    f"- (Marketaux) {item.get('title')}: {item.get('snippet') or 'N/A'}"
+                    f"- (Marketaux) [{published_at.strftime('%Y-%m-%d %H:%M')}] {item.get('title')}: {item.get('snippet') or 'N/A'}"
                 )
             except (ValueError, TypeError):
                 continue
         
         if not formatted_strings:
-            return f"Охирги {hours_ago} соат ичида '{instrument}' учун янгиликлар топилмади."
+            _print(f"[dim yellow]Marketaux: Нет отформатированных статей. Сырой ответ: {response.json()}[/dim yellow]")
+            return f"За последние {hours_ago} часов в Marketaux актуальных новостей не найдено."
 
-        _print(f"[green]{len(formatted_strings)} та долзарб янгилик топилди ва форматланди.[/green]")
+        _print(f"[green]{len(formatted_strings)} актуальных макро-новостей найдено в Marketaux.[/green]")
         return "\n".join(formatted_strings)
 
     except requests.RequestException as e:
-        _print(f"[dim red]Marketaux Error: {e}[/dim red]")
+        _print(f"[dim red]Ошибка Marketaux: {e}[/dim red]")
         if e.response:
-            _print(f"[dim red]Response: {e.response.text}[/dim red]")
-        return f"Marketaux API'дан янгиликлар олишда хатолик: {e}"
+            _print(f"[dim red]Ответ: {e.response.text}[/dim red]")
+        return f"Ошибка при получении новостей от Marketaux API: {e}"

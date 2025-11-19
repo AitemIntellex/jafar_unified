@@ -57,10 +57,9 @@ def send_telegram_message(message: str, parse_mode: str = "MarkdownV2"):
         data["parse_mode"] = parse_mode
 
     try:
-        console.print("[bold blue]Отправка сообщения в Telegram...[/bold blue]")
+
         response = requests.post(url, data=data)
         response_json = response.json() # Получаем ответ от API
-        console.print(f"[bold yellow]Ответ от Telegram API: {response_json}[/bold yellow]") # Выводим ответ
         response.raise_for_status()
 
         if response_json.get("ok"):

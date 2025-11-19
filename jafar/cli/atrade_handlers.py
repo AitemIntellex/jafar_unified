@@ -406,7 +406,7 @@ def run_atrade_analysis(instrument_query: str, contract_symbol: str, screenshot_
 
                     # --- РАСЧЕТ РАЗМЕРА ПОЗИЦИИ ---
                     balance = primary_account.get("balance", 0.0)
-                    max_risk_for_trade = balance * 0.30  # 30% риска от баланса
+                    max_risk_for_trade = balance * 0.03  # 3% риска от баланса
                     
                     # Множитель контракта = стоимость тика / размер тика
                     contract_multiplier = active_contract.get("tickValue") / active_contract.get("tickSize")

@@ -185,6 +185,22 @@ class TopstepXClient:
         payload = {"accountId": account_id, "orderId": order_id}
         return self._make_request("POST", "/Order/cancel", data=payload)
 
+    def modify_order(self, account_id: int, order_id: int, limit_price: float = None, stop_price: float = None):
+        """
+        Изменяет активный ордер (цену SL или TP).
+        """
+        console.print(f"[cyan]Изменение ордера ID: {order_id}...[/cyan]")
+        payload = {
+            "accountId": account_id,
+            "orderId": order_id
+        }
+        if limit_price is not None:
+            payload["limitPrice"] = limit_price
+        if stop_price is not None:
+            payload["stopPrice"] = stop_price
+        
+        return self._make_request("POST", "/Order/modify", data=payload)
+
     def place_order(self, contract_id: str, account_id: int, side: int, order_type: int, size: int, 
                     tick_size: float, limit_price: float = None, stop_price: float = None, 
                     stop_loss: float = None, take_profit: float = None):
