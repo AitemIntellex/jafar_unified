@@ -31,3 +31,4 @@ temp/
 
 # JSON files (to prevent accidental commit of credentials or sensitive data)
 *.json
+memory/

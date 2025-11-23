@@ -85,16 +85,32 @@ def get_formatted_topstepx_data(instrument_query: str, contract_id: str) -> tupl
 
         status_lines = [f"**ҲИСОБ ҲОЛАТИ (API):**", f"- **Баланс:** ${primary_account.get('balance', 0.0):,.2f}"]
         
+        # --- НОВЫЙ, НАДЕЖНЫЙ РАСЧЕТ ОТКРЫТЫХ ПОЗИЦИЙ ИЗ СДЕЛОК ---
         actual_open_positions = {}
-        if open_positions and open_positions.get("positions"):
-            status_lines.append(f"- **Очиқ Позициялар (API):**")
-            for pos in open_positions["positions"]:
-                contract = pos.get("contractId")
-                size = pos.get("size", 0)
-                side = pos.get("side", 0)
-                actual_size = size if side == 0 else -size
-                actual_open_positions[contract] = actual_size
-                status_lines.append(f"  - {contract}: {'Long' if actual_size > 0 else 'Short'} {abs(actual_size)}")
+        if trades and trades.get("trades"):
+            # Сортируем сделки по времени, чтобы правильно считать
+            sorted_trades = sorted(trades["trades"], key=lambda x: x.get("creationTimestamp", ""))
+            for trade in sorted_trades:
+                contract = trade.get("contractId")
+                size = trade.get("size", 0)
+                side = trade.get("side", 0) # 0 = Buy, 1 = Sell
+                
+                # Покупка (0) добавляет к позиции, продажа (1) - отнимает
+                position_change = size if side == 0 else -size
+                
+                if contract in actual_open_positions:
+                    actual_open_positions[contract] += position_change
+                else:
+                    actual_open_positions[contract] = position_change
+
+        # Убираем закрытые позиции (где итоговый размер = 0)
+        actual_open_positions = {k: v for k, v in actual_open_positions.items() if v != 0}
+
+        if actual_open_positions:
+            status_lines.append(f"- **Очиқ Позициялар (ҳисобланган):** {len(actual_open_positions)} та")
+            for contract, size in actual_open_positions.items():
+                side_str = "Long" if size > 0 else "Short"
+                status_lines.append(f"  - {contract}: {side_str} {abs(size)}")
         else:
             status_lines.append("- **Очиқ Позициялар:** Йўқ")
 
@@ -253,7 +269,7 @@ def run_btrade_analysis(instrument_query: str, contract_symbol: str, screenshot_
         calendar_sentiment = _get_sentiment_from_data("Экономический календарь", economic_calendar_data, instrument_query)
         _log_market_sentiment(instrument_query, news_sentiment, calendar_sentiment)
         prompt = f'''
-        **РЕЖИм: ПОИСК НОВОЙ СДЕЛКИ**
+        **РЕЖИМ: ПОИСК НОВОЙ СДЕЛКИ**
         Instrument: {instrument_query}.
         **Текущая торговая сессия:** {current_session}
         **PRE-ANALYZED SENTIMENTS:**
@@ -266,7 +282,7 @@ def run_btrade_analysis(instrument_query: str, contract_symbol: str, screenshot_
         **TASK:**
         1.  **Filter News:** First, critically evaluate the relevance of each news item provided. **Completely ignore any news not directly related to financial markets (e.g., celebrity, sports, social news).** Prioritize the most recent and impactful news.
         2.  **Analysis:** Based on the RELEVANT news and all other data, determine trend, sentiment, key levels, and forecast confidence (A, B, C).
-        3.  **Risk Proposal:** Based on your forecast confidence, propose a risk percentage for this trade, from 2% (low confidence) to 25% (high confidence).
+        3.  **Risk Proposal:** Based on your forecast confidence, propose a risk percentage for this trade, from 2% (low confidence) to 20% (high confidence).
         4.  **Plan A (Primary):** Formulate the primary trading plan (Action, Entry, Stop-Loss, Targets TP1/TP2).
         5.  **Translation:** Translate the complete analysis into Uzbek (Cyrillic).
         6.  **Voice Summary:** Generate a brief summary in Uzbek (Cyrillic) for the voice assistant.
@@ -302,8 +318,15 @@ def run_btrade_analysis(instrument_query: str, contract_symbol: str, screenshot_
         if trade_data:
             action = trade_data.get("action", "").upper()
             if action in ["BUY", "SELL"] and trade_data.get("primary_entry"):
+                # --- NEW: Check for max open positions ---
+                if len(open_calculated_positions) >= 10:
+                    console.print("[red]❌ Отмена: Достигнуто максимальное количество открытых позиций (10).[/red]")
+                    return {"status": "Отмена", "full_analysis": "Размещение ордера отменено: достигнуто максимальное количество открытых позиций."}
+
                 risk_percent = float(trade_data.get("risk_percent", 3.0))
-                console.print(f"[bold cyan]Gemini предлагает риск: {risk_percent}%[/bold cyan]")
+                # --- NEW: Cap risk_percent to 2-20% ---
+                risk_percent = max(2.0, min(20.0, risk_percent))
+                console.print(f"[bold cyan]Gemini предлагает риск: {risk_percent}% (скорректировано до 2-20%)[/bold cyan]")
                 entry_price = float(trade_data["primary_entry"])
                 stop_loss = float(trade_data["stop_loss"])
                 take_profit = float(trade_data["take_profits"]["tp1"])

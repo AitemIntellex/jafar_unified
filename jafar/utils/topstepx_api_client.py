@@ -140,6 +140,7 @@ class TopstepXClient:
 
     def get_trades(self, account_id: int, start_timestamp: datetime, end_timestamp: datetime):
         """
+
         Получает список сделок (trades) за указанный период для конкретного счета.
         """
         console.print(f"[cyan]Запрос сделок для счета {account_id} с {start_timestamp} по {end_timestamp}...[/cyan]")
@@ -205,62 +206,52 @@ class TopstepXClient:
                     tick_size: float, limit_price: float = None, stop_price: float = None, 
                     stop_loss: float = None, take_profit: float = None):
         """
-        Размещает торговый ордер согласно официальной документации ProjectX.
+        Размещает торговый ордер.
         side: 0 = Buy, 1 = Sell
-        order_type (internal): 0 = Limit, 1 = Stop, 2 = Market
+        order_type: 1 = Limit, 2 = Market, 4 = Stop (соответствует API)
         """
-        # --- Маппинг внутренних типов ордеров на типы API ---
-        # API: 1=Limit, 2=Market, 4=Stop
-        type_map = {
-            0: 1, # Наш Limit (0) -> API Limit (1)
-            1: 4, # Наш Stop (1) -> API Stop (4)
-            2: 2, # Наш Market (2) -> API Market (2)
-        }
-        api_order_type = type_map.get(order_type)
-        if api_order_type is None:
-            raise ValueError(f"Неподдерживаемый внутренний тип ордера: {order_type}")
+        if order_type not in [1, 2, 4]:
+            raise ValueError(f"Неподдерживаемый тип ордера API: {order_type}. Допустимые значения: 1, 2, 4.")
 
-        console.print(f"[bold yellow]Размещение ордера: side={side}, type={api_order_type}, size={size}, contract={contract_id} @ {limit_price or stop_price or 'Market'}[/bold yellow]")
+        console.print(f"[bold yellow]Размещение ордера: side={side}, type={order_type}, size={size}, contract={contract_id} @ {limit_price or stop_price or 'Market'}[/bold yellow]")
         
         payload = {
             "contractId": contract_id,
             "accountId": account_id,
             "side": side,
-            "type": api_order_type,
+            "type": order_type,
             "size": size,
         }
         
-        # 'limitPrice' обязателен для Limit ордеров
-        if api_order_type == 1 and limit_price is not None:
+        if order_type == 1: # Limit
+            if limit_price is None:
+                raise ValueError("Для Limit ордера необходимо указать 'limit_price'.")
             payload["limitPrice"] = limit_price
-        # 'stopPrice' обязателен для Stop ордеров
-        if api_order_type == 4 and stop_price is not None:
+        
+        if order_type == 4: # Stop
+            if stop_price is None:
+                raise ValueError("Для Stop ордера необходимо указать 'stop_price'.")
             payload["stopPrice"] = stop_price
             
-        # --- НОВАЯ ЛОГИКА BRACKET ORDERS (SL/TP) ---
-        # ВАЖНО: API ожидает SL/TP в ТИКАХ, а не в абсолютной цене.
-        # Используем динамический tick_size
-        
+        # --- Логика BRACKET ORDERS (SL/TP) ---
         entry_price_for_ticks = limit_price if limit_price is not None else stop_price
         
         if entry_price_for_ticks:
             if stop_loss:
-                sl_ticks = (stop_loss - entry_price_for_ticks) / tick_size
-                payload["stopLossBracket"] = {
-                    "ticks": int(sl_ticks),
-                    "type": 4 # API требует Stop Market ордер для SL
-                }
-                console.print(f"[cyan]Stop-Loss: {stop_loss} ({int(sl_ticks)} тиков)[/cyan]")
+                # Расчет SL в тиках. API требует отрицательное значение.
+                sl_distance_ticks = round(abs(entry_price_for_ticks - stop_loss) / tick_size)
+                sl_ticks = -sl_distance_ticks
+                payload["stopLossBracket"] = { "ticks": sl_ticks, "type": 4 } # Stop Market
+                console.print(f"[cyan]Stop-Loss: {stop_loss} ({sl_ticks} тиков)[/cyan]")
 
             if take_profit:
-                tp_ticks = (take_profit - entry_price_for_ticks) / tick_size
-                payload["takeProfitBracket"] = {
-                    "ticks": int(tp_ticks),
-                    "type": 1 # Limit order
-                }
-                console.print(f"[cyan]Take-Profit: {take_profit} ({int(tp_ticks)} тиков)[/cyan]")
+                # Расчет TP в тиках. API требует положительное значение.
+                tp_distance_ticks = round(abs(take_profit - entry_price_for_ticks) / tick_size)
+                tp_ticks = tp_distance_ticks
+                payload["takeProfitBracket"] = { "ticks": tp_ticks, "type": 1 } # Limit
+                console.print(f"[cyan]Take-Profit: {take_profit} ({tp_ticks} тиков)[/cyan]")
 
-        return self._make_request("POST", "/Order/place", data=payload, tick_size=tick_size)
+        return self._make_request("POST", "/Order/place", data=payload)
 
 # --- Тестовый запуск ---
 if __name__ == "__main__":

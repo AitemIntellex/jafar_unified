@@ -72,6 +72,10 @@ def handle_command(command: str, interactive_session: bool = True):
             "set_default_screenshot_region": "jafar.cli.command_router.set_default_screenshot_region",
             "atrade": "jafar.cli.atrade_handlers.atrade_command",
             "btrade": "jafar.cli.btrade_handlers.btrade_command",
+            "ctrade": "jafar.cli.ctrade_handlers.ctrade_command", # НОВЫЙ ХЕНДЛЕР
+            "superagent_start": "jafar.cli.superagent_commands.start_super_agent_command",
+            "superagent_stop": "jafar.cli.superagent_commands.stop_super_agent_command",
+            "superagent_status": "jafar.cli.superagent_commands.status_super_agent_command",
             "btrade_monitor_start": "jafar.cli.btrade_handlers.btrade_monitor_start_command",
             "btrade_monitor_stop": "jafar.cli.btrade_handlers.btrade_monitor_stop_command",
             "atrade_xapi": "jafar.cli.xapi_handlers.atrade_xapi_command",
